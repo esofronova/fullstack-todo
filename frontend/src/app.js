@@ -55,10 +55,7 @@ export default function App() {
               name="title"
               placeholder="Write here..."
               className="form-control"
-              onChange={(e) => { setTodo({
-                task: e.target.value,
-                isDone: false
-              }); }}
+              onChange={(e) => { setTodo({ task: e.target.value }); }}
               required
             />
             <button className="btn-dark rounded-end px-3 py-2" type="submit">Add</button>
