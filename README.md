@@ -4,8 +4,8 @@ Instructions:
 - clone this repository and open it in your terminal
 - cd backend
 - create .env file containing next info: 
+  MONGO_TODO = mongodb+srv://YOUR_MONGODB_USERNAME:YOUR_MONGODB_PASSWORD@cluster0.li6rd.mongodb.net/YOUR_DATABASE_NAME?retryWrites=true&w=majority
   
-  MONGO_TODO = mongodb+srv://YOUR_MONGODB_USERNAME:YOUR_MONGODB_PASSWORD@cluster0.li6rd.mongodb.net/YOUR_DATABASE?retryWrites=true&w=majority
   PORT = 4000
 
 - npm run dev
